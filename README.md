@@ -23,6 +23,33 @@
 - Message Queue : Kafka for asynchronous task processing.
 - CDN : To serve static assets.
 
+#### Backend Setup using nodejs
+
+1. #### Create and navigate to backend directory
+
+```bash
+ mkdir backend
+ cd backend
+```
+
+2. #### Initialize node js
+
+```bash
+ npm init -y
+```
+
+3. #### Install neccessary dependencies
+
+```bash
+ npm install express mongoose bcryptjs jsonwebtoken dotenv
+```
+
+3. #### Run the backend server
+
+```bash
+npm run dev
+```
+
 #### Frontent Setup
 
 1. #### Navigate to frontend directory
